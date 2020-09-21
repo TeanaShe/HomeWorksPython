@@ -19,6 +19,11 @@
 #     def static_method():
 #         return 'Bye-bye!'
 
+# H1 = Human('Adam')
+# H1.welcome()
+# print(Human.species_human())
+# print(Human.static_method())
+
 
 class Employee:
     """Class for employees, with names and salaries"""
@@ -45,11 +50,3 @@ print("Employee.__name__:", Employee.__name__)
 print("Employee.__module__:", Employee.__module__)  
 print("Employee.__bases__:", Employee.__bases__)  
 print("Employee.__dict__:", Employee.__dict__) 
-
-# H1 = Human('Adam')
-# H1.welcome()
-# print(Human.species_human())
-# print(Human.static_method())
-
-
-
