@@ -77,7 +77,8 @@ def my_range(fin, first = 0, step = 1):
         first += step
 
 val = my_range(18, 3)
-next(val)
+while True:
+    print('generator range:', next(val))
 
 
 
